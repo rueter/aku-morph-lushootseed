@@ -1,0 +1,33 @@
+!! Pronouns
+!  --------
+!! Pronouns in the Lushootseed language are references to things.
+
+LEXICON Pronouns
+
+PRON-PERS ;
+PRON-DEM ;
+PRON-INTERR ;
+
+LEXICON PRON-PERS
+čəd+Pron:čəd PRON-PERS-SG1 ;
+čəxʷ+Pron:čəxʷ PRON-PERS-SG2 ;
+čəɬ+Pron:čəɬ PRON-PERS-PL1 ;
+čələp+Pron:čələp PRON-PERS-PL2 ;
+əlgʷəʔ+v1+Pron:əlgʷəʔ PRON-PERS-PL3 ;
+əlgʷəʔ+v2+Pron:həlgʷəʔ PRON-PERS-PL3 ;
+
+LEXICON PRON-DEM
+tiʔiɬ+v1+Pron:tiʔiɬ PRON-DEM-MSC_ ;
+tiʔiɬ+v2+Pron:tiiɬ PRON-DEM-MSC_ ;
+tiʔiɬ+Pron:tsiʔiɬ PRON-DEM-FEM_ ;
+kʷi+Pron:kʷi PRON-DEM-MSC-REM_ ;
+kʷi+Pron:kʷsi PRON-DEM-FEM-REM_ ;
+ti+Pron:ti PRON-DEM-MSC_ ;
+ti+Pron:tsi PRON-DEM-FEM_ ;
+tiʔəʔ+Pron:tiʔəʔ PRON-DEM-MSC-PROX_ ;
+tiʔəʔ+Pron:tsiʔəʔ PRON-DEM-FEM-PROX_ ;
+
+LEXICON PRON-INTERR
+stab+Pron:stab PRON-INTERR_ ;
+
+! vim: set ft=xfst-lexc:

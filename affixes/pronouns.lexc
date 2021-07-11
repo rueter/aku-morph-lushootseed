@@ -1,0 +1,46 @@
+!! Pronoun inflection
+! ----------------------
+!! The Lushootseed language pronouns inflect in the same cases as regular
+!! nouns, but with a colon (':') as separator.
+
+LEXICON PRON-PERS-SG1
++Pers+Sg1+Nom:   #  ;
+
+LEXICON PRON-PERS-SG2
++Pers+Sg2+Nom:   #  ;
+
+LEXICON	PRON-PERS-PL1
++Pers+Pl1+Nom:   #  ;
+
+LEXICON PRON-PERS-PL2
++Pers+Pl2+Nom:   #  ;
+
+LEXICON PRON-PERS-PL3
++Pers+Pl3+Nom:   #  ;
+
+LEXICON PRON-INTERR_
++Interr: K ;
+
+LEXICON PRON-DEM_
++Dem: K ;
+
+LEXICON PRON-DEM-MSC_
++Dem+Msc: K ;
+LEXICON PRON-DEM-MSC-PROX_
++Dem+Msc+Prox: K ;
+LEXICON PRON-DEM-MSC-DIST_
++Dem+Msc+Dist: K ;
+LEXICON PRON-DEM-MSC-REM_
++Dem+Msc+Rem: K ;
+
+LEXICON PRON-DEM-FEM_
++Dem+Fem: K ;
+LEXICON PRON-DEM-FEM-PROX_
++Dem+Fem+Prox: K ;
+LEXICON PRON-DEM-FEM-DIST_
++Dem+Fem+Dist: K ;
+LEXICON PRON-DEM-FEM-REM_
++Dem+Fem+Rem: K ;
+
+! vim: set ft=xfst-lexc:
+

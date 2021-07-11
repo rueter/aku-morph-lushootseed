@@ -1,0 +1,121 @@
+!! Noun inflection
+! ---------------
+!! The Lushootseed language nouns inflect in time person aspect.
+! s%<ɬalil%>tu%>b%>s%>əxʷ
+! VNoun+come.ashore+V+Caus+Mid+Px3+Now
+! np+come·ashore+[caus]+[md]+3s+now
+! %>tu ~ %>t
+! %>əb ~ %>b
+
+
+LEXICON Cases
++Sg+Nom:     #   ;
++Pl+Nom:i     #   ;
+!#:   Nouns   ;
+
+LEXICON N_with-PL_RED1_qelb
+!: DIM_CV1toCV2C ; What should this be?
+: SG-SUF ;
+: PL_RED1_qelb ;
+
+LEXICON N_with-PL_RED2
+: DIM_CV1toCV2C ;
+: SG-SUF ;
+: PL_RED2 ;
+
+LEXICON N-FEM_with-PL_RED2
++Fem: DIM_CV1toCV2C ;
++Fem: SG-SUF ;
++Fem: PL_RED2 ;
+
+LEXICON N-MSC_with-PL_RED2
++Msc: DIM_CV1toCV2C ;
++Msc: SG-SUF ;
++Msc: PL_RED2 ;
+
+! Derivation
+LEXICON DIM_CV1toCV2C
+@D.PossPx@+Der+Der/Dimin+N+Sg+Nom:@D.PossPx@%^Red1CV1toCV2C # ;
++Der+Der/Dimin+N+Sg+Nom:%^Red1CV1toCV2C PRE-POSS_01 ;
+@D.PossPx@+Der+Der/Dimin+N+Pl+Nom:@D.PossPx@%^Red1CV1toCV2CPL # ;
++Der+Der/Dimin+N+Pl+Nom:%^Red1CV1toCV2CPL PRE-POSS_01 ;
+
+! Declension
+LEXICON SG-SUF
+!@D.PossPx@+Sg+Nom:@D.PossPx@ # ; !CHECKME 2021-07
++Sg+Nom: PRE-POSS_01 ;
+
+LEXICON PL_RED1_qelb
+@D.PossPx@+Pl+Nom:@D.PossPx@%^Red1CV2CiCV   # ;
++Pl+Nom:%^Red2CV2CiCV        PRE-POSS_01 ;
+!! qəlb+N+Pl+Nom: **rain showers**
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}qəlb%^Red1CV2CiCV
+!!€ 00qi0qəlb0
+LEXICON PL_RED2
+@D.PossPx@+Pl+Nom:@D.PossPx@%^Red2CVC2CVCCVC # ;
++Pl+Nom:%^Red2CVC2CVCCVC	PRE-POSS_01 ;
+!! bəlups+N+Pl+Nom
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
+!!€ 00bəlbəlups0
+!!$ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}bəlups%^Red2CVC2CVCCVC
+!!$ 00000bəlups0
+!! k̓ʷəčədiʔ+N+Pl+Nom: __rabbit/jänis__
+!!€ %{p5%}%{p4%}%{p3%}%{p2%}%{p1%}k̓ʷəčədiʔ%^Red2CVC2CVCCVC
+!!€ 00k̓ʷəčk̓ʷəčədiʔ0
+!!$ k̓ʷəčədiʔ: k̓ʷəčədiʔ+N+Pl+Nom
+
+LEXICON PRE-POSS_01
+@R.TAM-SUBJ.SUBJ@+Mod/Subj:@R.TAM-SUBJ.SUBJ@ PRE-POSS_02 ;
+@D.TAM-SUBJ@ PRE-POSS_02 ;
+
+LEXICON PRE-POSS_02
+@R.TAM-HAB.HAB@+Hab:@R.TAM-HAB.HAB@ PRE-POSS_03 ;
+@R.TAM-HAB.IRR@+Irr:@R.TAM-HAB.IRR@ PRE-POSS_03 ;
+@D.TAM-HAB@ PRE-POSS_03 ;
+
+LEXICON PRE-POSS_03
+@R.TAM-RE.RE@+Anew:@R.TAM-RE.RE@ PRE-POSS_04 ;
+@D.TAM-RE.RE@ PRE-POSS_04 ;
+
+LEXICON PRE-POSS_04
+@R.TAM-T.REM@+RemPst:@R.TAM-T.REM@ PRE-POSS_05 ;
+@D.TAM-T@ PRE-POSS_05 ;
+
+LEXICON PRE-POSS_05
+@R.TAM-A.STAT@+Asp/Stat:@R.TAM-A.STAT@ PRE-POSS_06 ;
+@R.TAM-A.PROG@+Asp/Prog:@R.TAM-A.PROG@ PRE-POSS_06 ;
+@R.TAM-A.PROGSTAT@+Asp/ProgStat:@R.TAM-A.PROGSTAT@ PRE-POSS_06 ;
+@R.TAM-A.PFV@+Asp/Pfv:@R.TAM-A.PFV@ PRE-POSS_06 ;
+@D.TAM-A@ PRE-POSS_06 ;
+
+LEXICON PRE-POSS_06
+@R.NMZ.V2N@+Vnoun:@R.NMZ.V2N@ POSS ;
+@R.NMZ.V2A@+Ptc:@R.NMZ.V2A@ POSS ;
+@D.NMZ@ POSS ;
+
+LEXICON POSS
+@D.PossPx@:@D.PossPx@ K ;
+@R.PossPx.Sg1@ PXSG1 ;
+@R.PossPx.Sg2@ PXSG2 ;
+@U.PossPx.SP3@ PXSP3 ;
+@U.PossPx.Pl1@ PXPL1 ;
+@U.PossPx.Pl2@ PXPL2 ;
+
+LEXICON PXSG1
++PxSg1: K ;
+
+LEXICON PXSG2
++PxSg2: K ;
+
+LEXICON PXSP3
++PxSP3:%>s K ;
+
+LEXICON PXPL1
++PxPl1:%>čəɬ K ;
+
+LEXICON PXPL2
++PxPl2:%>ləp K ;
++PxPl2:%>lap K ;
+
+! vim: set ft=xfst-lexc:
+

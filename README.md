@@ -25,6 +25,10 @@ the alphabet, and some rules to varieties of reduplication as well as glotal sto
 The initial Yaml files include:
 nouns, verbs, adjectives and adverbs to be used in the Giella infrastructure
 
+# Availability
+A nightly rendering of up-to-date morphological analyzers and generators are available in a python library:
+[https://github.com/mikahama/uralicNLP](https://github.com/mikahama/uralicNLP)
+
 # Cite
 
 If you use this data in your work, I would be ever so grateful if you cited it as follows:
